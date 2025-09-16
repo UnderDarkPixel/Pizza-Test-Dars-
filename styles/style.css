@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+}
+
+body {
+
+    background: linear-gradient(245.71deg, #1E0C00 4.96%, #1F0700 33.7%, #170A00 68.41%, #1E0D00 96.42%);
+}
+
+
+nav {
+    display: flex;
+    gap: 40px;
+}
+
+.menu {
+    display: flex;
+}
+
+.logo {
+    width: 140px;
+    height: 30px;
+
+    position: absolute;
+    top: 20px;
+    left: 100px;
+}
+
+ul {
+    width: 600px;
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+    margin: 27px 388px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+text-decoration: none;
+width: 47px;
+
+
+font-family: 'Muller';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 109.5%;
+
+color: #A3A3A3;
+}
+
+
+
+a:hover{
+
+width: 50px;
+
+
+font-family: 'Muller';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 109.5%;
+
+background: linear-gradient(261.69deg, #FF6432 12.12%, #FFA228 86.72%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+
+.LogIn {
+    width: 163px;
+    height: 40px;
+}
+
+.Btn_styles {
+    background: linear-gradient(261.69deg, #FF5D29 12.12%, #FE9C1C 86.72%);
+    border-radius: 700px 675px 700px 700px;
+    border: 0 solid;
+
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 109.5%;
+
+    color: #FFFFFF;
+}
+
+.Shop {
+    width: 40px;
+    height: 40px;
+    
+    background: linear-gradient(261.69deg, #FF5D29 12.12%, #FE9C1C 86.72%);
+    border-radius: 50%;
+    border: 0 solid;
+    
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17.74px;
+    line-height: 109.5%;
+    
+    color: #FFFFFF;
+    
+    }
+
+.Intro {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1300px;
+}
+
+.intro-left {
+    text-align: left;
+    position: relative;
+}
+
+.Leader__txt {
+    position: absolute;
+    top: 154px;
+    left: 164px;
+}
+
+
+.Vector {
+    position: absolute;
+    top: 250px;
+    left: 490px;
+}
+
+.intro_txt {
+    position: absolute;
+    top: 220px;
+    left: 95px;
+}
+
+.small__introtxt{
+    color: #A3A3A3;
+    position: absolute;
+    top: 420px;
+    left: 95px;
+}
+
+span {
+    color: white;
+}
+
+.cook {
+    color: #A3A3A3;
+    position: absolute;
+    top: 490px;
+    left: 95px;
+}
+
+.Video_BG {
+    position: absolute;
+    top: 20px;
+    left: -30px;
+}
+
+.Pause_BG {
+    position: absolute;
+    top: 64px;
+    left: 55px;
+}
+
+.Pause {
+    position: absolute;
+    top: 122px;
+    left: 122px;
+    z-index: 1;
+}
+
+.Cook__Btns {
+    position: relative;
+}
+
+.toOrder {
+    width: 163px;
+    height: 40px;
+
+    position: absolute;
+    top: 260px;
+    z-index: 2;
+}
+
+.act {
+    display: flex;
+    margin-top: -60px;
+    margin-left: 1080px;
+    gap: 20px;
+}
+
+.Pizza_Menu {
+
+    width: 163px;
+    height: 40px;
+
+    border: 2px solid #FFA631;
+    border-radius: 700px 675px 700px 700px;
+    background-color: transparent;
+
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 109.5%;
+
+    color: #FFA631;
+
+    position: absolute;
+    top: 260px;
+    left: 128px;
+}
+
+.Vector1 {
+    position: absolute;
+    top: 288px;
+    left: 335px;
+}
+
+
+.intro-right {
+    text-align: right;
+    position: relative;
+}
+
+.IntroR_BG {
+    position: absolute;
+    top: 30px;
+    right: 0px;
+}
+
+
+.Leader__txt1 {
+    position: absolute;
+    top: -58px;
+    right: -110px;
+}
+
+.slice {
+    position: absolute;
+    top: -80px;
+    right: -100px;
+    z-index: 1;
+}
+
+.Fri {
+    position: absolute;
+    top: 550px;
+    right: 360px;
+    z-index: 1;
+}
+
+main {
+    margin-top: 70%;    
+}
+
+.Menu_txt {
+    margin-left: 40%;
+}
+
+.pizza_cards {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card_style {
+    width: 297px;
+    height: 459px;
+    background-color:#210A01;
+    border-radius: 30px;
+    color: white;
+}
+
+.italian_card_img {
+    margin-left: 42px;
+    margin-top: -100px;
+}
+
+.venecia_card_img {
+    margin-left: 42px;
+    margin-top: -100px;
+}
+
+.meat_card_img {
+    margin-left: 42px;
+    margin-top: -100px;
+}
+
+.cheese_card_img {
+    margin-left: 42px;
+    margin-top: -100px;
+}
+
+.cardtxt_style {
+    text-align: center;
+}
+
+.italianbtn {
+    margin-top: 100px;
+    margin-left: 50px;
+    width: 230px;
+    height: 62px;
+}
+
