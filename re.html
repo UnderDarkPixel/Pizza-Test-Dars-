@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avtorizatsiya</title>
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/font.css">
+    <script src="./scripts/index.js"></script>
+</head>
+<body>
+
+    
+    <form action="reCaptcha.html" onsubmit="return Login(event)">
+        <div class="txtt">
+            <h1>Ro'yxatdan o'tish</h1><br>
+        </div>
+        <div class="input__form">
+            <input id="firstname" class="firstname inp" firstname type="text" placeholder="Ism" required><br><br>
+            <input id="lastname" class="lastname inp" type="text" placeholder="Familya" required><br><br>
+            <input id="age" type="number" class="age inp" placeholder="Yosh" required><br><br>
+            <div class="radio__div">
+                <label class="fix" for="male">Erkak</label>
+                <input class="radio fix" id="male" type="radio" name="german" required>
+                <label for="female">Ayol</label>
+                <input class="radio" id="female" type="radio" name="german" required>
+            </div>
+        </div>
+        <div class="sum__btn">
+            <button class="submit" type="submit">Keyingi</button>
+        </div>
+    </form>
+
+    <div class="wrapper"></div>
+
+</body>
+</html>

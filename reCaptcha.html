@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Captcha</title>
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="../styles/font.css">
+</head>
+<body>
+    <form action="Done.html" onsubmit="return checkCaptcha()">
+        <div class="txtt">
+            <h1>Ro'yxatdan o'tish</h1><br>
+        </div>
+        <div class="g-recaptcha captcha" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"></div>
+        <div class="sum__btn">
+            <button class="submit" type="submit">Yakunlash</button><br><br>
+            <a href="index.html" id="back">Orqaga</a>
+        </div>
+    </form>
+
+    <div class="wrapper"></div>
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script>
+        function checkCaptcha() {
+            let response = grecaptcha.getResponse();
+            if(response.length == 0) {
+            alert("Подтвердите, что вы не робот!");
+            return false;
+        }
+            return true;
+        }
+        </script>
+</body>
+</html>
